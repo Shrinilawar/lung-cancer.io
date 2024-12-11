@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing import image
 
 # Define class labels
 class_labels = ['Adenocarcinoma', 'Large Cell Carcinoma', 'Normal', 'Squamous Cell Carcinoma']
-
+#hi
 # Load the trained model
 model = tf.keras.models.load_model('trained_lung_cancer_model_final.h5')
 
